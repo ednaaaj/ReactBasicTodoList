@@ -1,0 +1,140 @@
+/* primary color #2C3A47; */
+/* Secondary color #CAD3C8 */
+.input-text {
+    width: 100%;
+    margin: 0 auto;
+  
+    text-align: center;
+}
+
+
+.input-text input {
+    text-align: center;
+    align-content: center;
+    width: 50%;
+    height: 2rem;
+    background-color: #006266;
+    border: 2px solid #CAD3C8;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#input-todo:focus {
+    outline: none;
+    outline-style: none;
+  
+
+}
+
+.list-container {
+    color: white;
+    width: 100%;
+    height: auto;
+
+    margin-top: 50px;
+}
+
+.lists {
+    width: auto;
+    margin: 0 auto;
+
+    margin: 10px;
+}
+
+.u-lists {
+    /* margin: 5px; */
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.u-lists .list{
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px;
+
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.u-lists .list:hover{
+    background-color: #2C3A47; 
+}
+
+.list .list-id {
+    display: inline;
+    float: left;
+}
+
+.list p {
+    margin-left: 10px;
+    display: inline;
+}
+
+.list .list-menu:hover {
+    color:burlywood;
+}
+.list .list-menu {
+    float: right;
+    position: relative;
+}
+.list .list-menu::after {
+    content: '\2807';
+    font-size: 15px;
+
+}
+
+.tool-tips {
+    position: absolute;
+    top: -5px;
+    right: -120px;
+    background-color: white;
+    width: 7rem;
+    
+
+}
+
+.hide {
+    transition: all 2s ease-in-out;
+    display: none;
+}
+
+.tool-tips ul {
+    list-style: none;
+    padding: 2px;
+    background-color: white;
+}
+.tool-tips li {
+    /* background-color: #2C3A47; */
+    z-index: 1;
+    color: black;
+    text-align: center;
+}
+.tool-tips li:hover {
+    /* background-color: #2C3A47; */
+    color: white;
+    background-color: #2C3A47;
+}
+
+.mark {
+    background-color:#c0392b;
+    color: white;
+    text-decoration: line-through;
+
+}
+.mark:hover{
+    background-color: #c0392b !important;
+}
+
+.mark .tool-list{
+    
+    
+}
+
