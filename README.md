@@ -1,6 +1,6 @@
 ## Basic React todo list. 
-
-to test this out on your browser you can follow this link -> https://basicreacttodolist.netlify.com
+This is only a basic react todo list, there are no database and localstorage included. All the input from the list will be clear if the page is refresh.
+To test this out on your browser you can follow this link -> https://basicreacttodolist.netlify.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
